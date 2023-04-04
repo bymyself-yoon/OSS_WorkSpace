@@ -14,4 +14,4 @@ jobs:
             with:
                 num: 11
           - name: Print the square
-            run: echo "${{steps.get_square.outputs.num_squared}}"
+            run: echo "${{ steps.get_square.outputs.num_squared }}"
