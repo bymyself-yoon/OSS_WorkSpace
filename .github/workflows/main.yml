@@ -9,7 +9,7 @@ jobs:
           - name: Checkout
             uses: actions/checkout@v2
           - name: Fetch num squared
-            id: get_squared
+            id: get_square
             uses: ./ # Uses an action in the root directory
             with:
                 num: 11
